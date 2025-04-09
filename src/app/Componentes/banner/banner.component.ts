@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { Usuario } from 'src/app/interfaces/usuario';
 
 @Component({
-  selector: 'app-banner',
-  templateUrl: './banner.component.html',
-  styleUrls: ['./banner.component.scss']
+    selector: 'app-banner',
+    templateUrl: './banner.component.html',
+    styleUrls: ['./banner.component.scss'],
+    standalone: false
 })
 
 export class BannerComponent {
