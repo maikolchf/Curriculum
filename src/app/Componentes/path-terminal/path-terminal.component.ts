@@ -4,7 +4,7 @@ import { Component, Input } from '@angular/core';
     selector: 'app-path-terminal',
     templateUrl: './path-terminal.component.html',
     styleUrl: './path-terminal.component.scss',
-    standalone: false
+    standalone: true
 })
 export class PathTerminalComponent {
  @Input() nombreFuncion: string = '';

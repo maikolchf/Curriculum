@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { environment } from '../../../environments/environment'
+import { PathTerminalComponent } from '../path-terminal/path-terminal.component';
 
 @Component({
     selector: 'app-about',
     templateUrl: './about.component.html',
     styleUrls: ['./about.component.scss'],
-    standalone: false
+    standalone: true,
+    imports: [PathTerminalComponent]
+    
 })
 export class AboutComponent {
   imagenPerfil: string = "";
